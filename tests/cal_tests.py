@@ -3,6 +3,7 @@ from calculator import addition, multiplication, subtraction, division
 def test_add():
 
     assert addition(10,5) == 15
+    assert addition(10,15) == 25
 
 def test_sub():
 
